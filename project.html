@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+         .navbar-brand {
+            color: blue;
+            padding-left: 10%;
+            font-weight: bolder;
+        }
+
+        .navbar-nav {
+            position: absolute;
+            right: 15%;
+        }
+
+        .text-gradient {
+            background: -webkit-linear-gradient(#524cc6, #8e2e7e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .rowbody {
+            margin-top: 90px;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(237, 246, 246);">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Personal Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./resume.html">Resume</a>
+                  <a class="nav-link" href="./project.html">Projects</a>
+                  <a class="nav-link" href="./contact.html">Contact</a>
+
+              </div>
+          </div>
+      </div>
+  </nav>
+
+    <!-- Header -->
+    <header class="text-center my-5">
+        <h1 class="text-gradient fw-bold display-4">Projects</h1>
+    </header>
+
+    <!-- Project Cards -->
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6 mx-auto">
+                <div class="card shadow-lg border-0 rounded-4">
+                    <div class="row g-0">
+                        <div class="col-md-8 p-4">
+                            <h2 class="card-title">Todo List</h2>
+                            <p class="card-text">created a todolist using Django</p>
+                        </div>
+                        <!-- <div class="col-md-4">
+                            <img src="./image/OIP.jpeg" class="img-fluid rounded-end-4 h-100" alt="Project Image">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat for additional projects -->
+        <div class="row mb-5">
+            <div class="col-lg-6 mx-auto">
+                <div class="card shadow-lg border-0 rounded-4">
+                    <div class="row g-0">
+                        <div class="col-md- p-4">
+                            <h2 class="card-title">Front-End Designs</h2>
+                            <p class="card-text">Developed responsive web applications such as Demo  portfolio, demo resume,e-commerce platform etc . Utilized HTML,CSS and bootsrtap to create user-centric designs with intuitive navigation,real-time interactions , and optimized functionality<br></p>
+                        <!-- <div class="col-md-4">
+                            <img src="./image/image.png" class="img-fluid rounded-end-4 h-100" alt="Project Image">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-6 mx-auto">
+          <div class="card shadow-lg border-0 rounded-4">
+              <div class="row g-0">
+                  <div class="col-md- p-4">
+                      <h2 class="card-title">CRUD Applications</h2>
+                      <p class="card-text">I have build basic CRUD applications like employee CRUD,vehicle Crud etc. where login,add,update,remove, and take detail  of one object kind of operations can perform<br></p>
+                  <!-- <div class="col-md-4">
+                      <img src="./image/image.png" class="img-fluid rounded-end-4 h-100" alt="Project Image">
+                  </div> -->
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    <!-- Call to Action -->
+    <section class="text-center py-5 text-white" style="background: linear-gradient(90deg, rgb(12, 49, 214) 0%, rgba(157,29,253,1) 50%, rgb(157, 48, 156) 100%);">
+        <h1 class="display-5 fw-bold">Let's Build Something Together</h1>
+        <button><a class="nav-link active" href="./contact.html">Contact Me</a></button>
+      </section>
+
+    <footer class=" p-5 mt-5 d-flex">
+      <p> 2024 My Portfolio. All Rights Reserved.</p>
+      <div class="prv" style="color: blue; margin-left: 50%;"><u>privacy</u> . <u> Terms</u> . <u>contact</u></div>
+</footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
